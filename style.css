@@ -1,0 +1,146 @@
+header img {
+  height: 150px;
+}
+
+header {
+  background-color: grey;
+}
+
+header nav a {
+  text-decoration: none;
+  color: red;
+  margin-left: 2rem;
+}
+header nav a:hover {
+  text-decoration: underline;
+  color: red;
+  margin-left: 2rem;
+}
+
+.container {
+  margin: 0 auto;
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Slide {
+  padding: 2rem;
+  width: 104rem;
+  height: 40rem;
+  background: url(https://images.unsplash.com/photo-1533709896227-66c686ee7e61?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+  background-size: cover;
+  object-fit: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.Slide .container {
+  display: flex;
+  justify-content: flex-end;
+}
+.Slide h2 {
+  background: rgba(185, 3, 3, 0.678);
+  padding: 0.5rem;
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+#products {
+  width: 75%;
+  margin: 0 auto;
+}
+#products h2 {
+  color: rgb(202, 37, 37);
+  padding: 1rem;
+}
+#products h2 span {
+  color: red;
+}
+
+.product {
+  border: 1px solid grey;
+  background-color: rgb(170, 169, 169);
+  padding: 10px;
+  box-sizing: border-box;
+  width: calc(25% - 10px / 4 * 3);
+  text-align: center;
+}
+
+.product p {
+  text-align: left;
+}
+
+.content {
+  flex: 1;
+}
+
+.map {
+  margin-right: 1rem;
+  flex: 1;
+}
+
+input,
+textarea {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 10px;
+}
+form textarea {
+  max-width: 100%;
+  min-height: 100px;
+}
+
+.map img {
+  margin-left: 2rem;
+  width: 100%;
+}
+#contact h2 {
+  color: rgb(202, 37, 37);
+  padding: 1rem;
+}
+#contact h2 span {
+  color: red;
+}
+
+footer {
+  margin-top: 5rem;
+  color: white;
+  text-align: center;
+  background-color: grey;
+  padding: 1rem;
+}
+
+#contacts {
+  margin: 0 auto;
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about {
+  width: 75%;
+  margin: 0 auto;
+}
+.about h2 {
+  color: rgb(202, 37, 37);
+  padding: 1rem;
+}
+
+.about h2 span {
+  color: red;
+}
+
+button {
+  padding: 0.5rem;
+  border: 1px solid red;
+  color: black;
+  background-color: white;
+}
